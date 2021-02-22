@@ -123,3 +123,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.pylint.d/monomial1.stats
+.pylint.d/main1.stats
