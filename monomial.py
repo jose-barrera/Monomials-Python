@@ -140,6 +140,6 @@ class Monomial:
         else:
             result = sign + coefficient + power
             # '1x' is commonly written as only 'x'.
-            result = result.replace('1 x', 'x')
+            result = result.replace(' 1 x', ' x')
 
         return result

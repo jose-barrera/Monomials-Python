@@ -23,9 +23,12 @@ def test_monomial_string_representation():
     print(Monomial(-7.5, 0))
     print(Monomial(-7.5, 1))
     print(Monomial(-7.5, 5))
+    print(Monomial(91, 0))
+    print(Monomial(91, 1))
+    print(Monomial(91, 5))
 
 
-# TestMonomialStringRepresentation()
+test_monomial_string_representation()
 
 print('This program allows to perform basic arithmetic with two')
 print('monomials, assuming that conditions are complied.')
